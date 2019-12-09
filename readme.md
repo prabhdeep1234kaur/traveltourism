@@ -20,6 +20,8 @@
 - jQuery
 - Json
 - Ajax
+- Google custom search
+- Mailchimp subscription box
 
 # Platforms : 
 - Visual Studio
