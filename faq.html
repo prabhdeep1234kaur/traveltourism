@@ -3,21 +3,24 @@
 	<head>
 		<title>Travel & Tourism | FAQ</title>
 		<link rel="stylesheet" type="text/css" href="styles/main1.css">
-		<meta charset="utf-8">	
+      <meta charset="utf-8">	
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta name="description" content="Best place to plan and book you holidays. Travel with us.">
 	    <meta name="keywords" content="Resort, Travel , beach ,nature,place, vacations, holidays, happiness">
 	    <link rel="icon" href="images/logo/favicon.png" type="images/ico">
 	</head>
 	<body>
+		<div class="parallax_home"></div>
 		<div id="wrapper">
-
 			<header>
-				<div id="header_logo" class="logo">
+				<div id="header_logo"  class="logo">
 					<a id="main_logo" href="index.html"><img src="images/logo/logo_transparent.png" alt="logo"></a>
 				</div>
 				<div class="header_div navbar">
 					<div class="icon-bar" onclick="Show()">
-						<i class="fa fa-bars" aria-hidden="true"></i>
+					    <i class="fa fa-bars" aria-hidden="true"></i>
 					</div>
 					<nav id="main_menu" class="main_menu ">
 						<ul class="main_menu_ul" id="nav-lists">
@@ -30,17 +33,14 @@
 									<li><a href="faq.html">FAQs</a></li>
 								</ul>
 							</li><!-- testimonials and faq-->
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="blogs.html">Blog</a></li>
-							<li><a href="news.html">Media</a></li>
-							<!--news and social media -->
-							<li><a href="services.html">Services</a></li>
-							<li><a href="tours.html" >Tour</a></li>	
-							<!--news and social media -->
-							<li><a href="feedback.html">Feedback</a></li>
-							<li><a href="agency.html">Find Agency</a></li>
-							<li><a href="contactus.html">Contact Us</a></li>
-	
+							<li><a href="gallery.html" >Gallery</a></li>
+							<li><a href="blogs.html" >Blog</a></li>
+							<li><a href="news.html" >Media</a></li><!--news and social media -->
+							<li><a href="services.html" >Services</a></li><!--news and social media -->		
+							<li><a href="feedback.html" >Feedback</a></li>
+							<li><a href="agency.html" >Find Agency</a></li>
+							<li><a href="contactus.html" >Contact Us</a></li>
+							
 						</ul>
 					</nav>
 				</div>
@@ -53,44 +53,65 @@
 				<ul class="faq_list">
 				</ul><br>
 			</main>
-			<footer>
-				<div class="section_footer">
-					<div class="footer_one">
-						<ul>
-							<li><a id="footer_logo" href="index.html"><img src="images/logo/logo_transparent.png" alt="logo"></a></li>
-							<li>Travel & Tourism</li>
-							<li><img class="social_icon_footer" alt="Facebook icon" src="images/icons/fb.png" >Facebook</li>
-							<li><img class="social_icon_footer" alt="Twitter icon" src="images/icons/twitter.png" >Twitter</li>
-							<li><img class="social_icon_footer" alt="Instagram icon" src="images/icons/insta.jpg" >Instagram</li>
-							<li><img class="social_icon_footer" alt="Google icon" src="images/icons/google.png" >Google+</li>
-						</ul>
-					</div>
-					<div class="footer_middle">
-						<p>We get it. You want services that makes your holidays memorable without devoting your life to plan it! Get a personalized mix of suggestions of various holiday destinations </p><br>
-						<form method="post" action="#">
-							<input type="email" name="" placeholder="Please enter your email">
-						<p class="p_footer_subscribe"><input type="submit" class="footer_subscribe" value="Subscribe"></p>
-						</form>
-					</div>
-					<div class="footer_last">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="testimonial.html">Testimonials</a></li>
-							<li><a href="#">FAQs</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Media</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="tours.html" >Tour</a></li>	
-							<li><a href="#">Feedback</a></li>
-							<li><a href="#">Find Agency</a></li>							
-							<li><a href="#">Contact Us</a></li>
-						</ul>
-					</div>
-				</div>
+			
+	<p class="clear"></p>
+	<footer>
+		<div class="section_footer">
+			<div class="footer_one">
 				
-			</footer>
+				<ul>
+					<li><a id="footer_logo" href="index.html"><img src="images/logo/logo_transparent.png" alt="logo"></a></li>
+					<li>Travel & Tourism</li>
+					<li><i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp;Facebook</li>
+					<li><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter</li>
+					<li><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;Instagram</li>
+					<li><i class="fa fa-google-plus-official" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Google+</li>
+				</ul>
+			</div>
+			
+			<div class="footer_middle">
+				<p>Get a personalized mix of suggestions of various holiday destinations! </p><br>
+				<!-- Begin Mailchimp Signup Form -->
+				
+				<div id="mc_embed_signup">
+					<form action="https://gmail.us4.list-manage.com/subscribe/post?u=e114c8c62805430339582dd15&amp;id=919515be22" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div id="mc_embed_signup_scroll">
+							<div class="mc-field-group">
+								<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="">
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>
+							<div style="position: absolute; left: -5000px;" aria-hidden="true">
+								<input type="text" name="b_e114c8c62805430339582dd15_919515be22" tabindex="-1" value="">
+							</div>
+							<div class="clear">
+								<p><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button footer_subscribe"></p>
+							</div>
+						</div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+			</div>
+			<div class="footer_last">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="testimonial.html">Testimonials</a></li>
+					<li><a href="faq.html">FAQs</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="blogs.html">Blog</a></li>
+					<li><a href="news.html">Media</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="feedback.html">Feedback</a></li>
+					<li><a href="agency.html">Find Agency</a></li>							
+					<li><a href="contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="tweetFeed"></div>
+	</footer>
 		</div>
 		<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
       		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

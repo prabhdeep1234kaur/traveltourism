@@ -20,11 +20,11 @@ function topFunction() {
  
 var navList = document.getElementById("nav-lists");
 function Show() {
-navList.classList.add("_Menus-show");
+  navList.classList.add("_Menus-show");
 }
 
-function Hide(){
-navList.classList.remove("_Menus-show");
+function Hide() {
+  navList.classList.remove("_Menus-show");
 }
 
 //Alert when the user inactive
@@ -34,8 +34,8 @@ document.onmousemove = resetTimer;
 document.onclick = resetTimer;
 
 function resetTimer() {
-  clearTimeout(timeout);
-  timeout = setTimeout(function(){
+  clearTimeout(timeout);  
+  timeout = setTimeout(function(){ 
     alert("You have beed inactive for 3 minutes. If you need our help you can always contact us.");
   }, 3*60*1000);
 }
@@ -72,7 +72,7 @@ let faqArray = [{
  
 },
 {
-   h3: "What types of cards are accepted for payment?",
+  h3: "What types of cards are accepted for payment?",
   p: 'We accept cards of international systems Visa, Maestro and MasterCard of any type (Classic, Gold, Platinum, World and others) and any type (debit, credit, virtual, prepaid) of all banks.' 
  
 },
@@ -82,18 +82,18 @@ let faqArray = [{
  
 },
 {
-   h3: "Why does my payment fail?",
+  h3: "Why does my payment fail?",
   p: 'Your card may not have enough funds to pay for the order. In addition, make sure that:' 
  
 },
 {
-   h3: "Is it possible to exchange or return the tour?",
+  h3: "Is it possible to exchange or return the tour?",
   p: 'You can cancel the tour by following our instructions. You need to write an email, after that we will inform you of a possible penalty for canceling a reservation. If you agree, we will cancel your contract and return the money to you, minus a fine.' 
  
 } ]
 $(function () {
     let faq = '<li> <h3>' + faqArray[0].h3 +'</h3><p>' + faqArray[0].p +'</p></li><li> <h3>' + faqArray[1].h3 +'</h3><p>' + faqArray[1].p +'</p></li><li> <h3>' + faqArray[2].h3 +'</h3><p>' + faqArray[2].p +'</p></li><li> <h3>' + faqArray[3].h3 +'</h3><p>' + faqArray[3].p +'</p></li><li> <h3>' + faqArray[4].h3 +'</h3><p>' + faqArray[4].p +'</p></li><li> <h3>' + faqArray[5].h3 +'</h3><p>' + faqArray[5].p +'</p></li><li> <h3>' + faqArray[6].h3 +'</h3><p>' + faqArray[6].p +'</p></li><li> <h3>' + faqArray[7].h3 +'</h3><p>' + faqArray[7].p +'</p></li><li> <h3>' + faqArray[8].h3 +'</h3><p>' + faqArray[8].p +'</p><ul> <li>You were not mistaken when entering data from your card</li> <li>Your bank did not set limits on the volume of card transactions during the day</li> <li>Your bank does not prohibit online payments</li> </ul></li><li> <h3>' + faqArray[9].h3 +'</h3><p>' + faqArray[9].p +'</p></li>';
-    $(' ul.faq_list').html(faq); 
+    $('ul.faq_list').html(faq); 
 });
 
 //Dynamic page title changing
@@ -106,8 +106,9 @@ jQuery(document).ready(function( $ ){
     $("title").text("Travel & Tourism | We missing you");
   });
 
- // Change page title back on focus
+  // Change page title back on focus
   $(window).focus(function() {
     $("title").text(pageTitle);
   });
 });
+
