@@ -537,6 +537,7 @@ div.serviceoverviewblock {
         margin: 2px;
         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
    }
+
     div.carblocks {
         display: flex;
         flex-direction: row;
@@ -816,6 +817,13 @@ h2{
     line-height:0.5;
     align-items:center;
 }
+
+    /*faq*/
+    main {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 #topBtn {
     display: none;
