@@ -1,0 +1,22 @@
+[
+  {
+    "image": "images/india_home.jpeg",
+    "country" : "India",
+    "content": "Plan Your Perfect INDIA Holiday, Feel Free To Choose Your Destinations and Interests. 24/7 Help by Expert Planners. Get Free Quote, Enquire Now!"
+  },
+  {
+    "image": "images/spain_home.jpeg",
+    "country" : "Spain",
+    "content": "Our groups go off the beaten-path to get an authentic and easy-going experience. Immerse yourself in Spain's culture for life-altering experiences with like-minded people. Flexible group travel."
+  },
+  {
+    "image": "images/london2_home.jpeg",
+    "country" : "London",
+    "content": "Create Your Personal Travel Guide to London. Itineraries, Maps & Attractions! Visit Houses of Parliament & Big Ben, Buckingham Palace, Westminster Abbey and More."
+  },
+  {
+    "image": "images/bali_home.jpeg",
+    "country" : "Bali",
+    "content": "Bali is known for its alluring arts which includes traditional and modern dance forms, its splendid sculptures, its flashy paintings, excellent leather, beautiful metalworking and amazing music."
+  }
+]
