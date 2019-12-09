@@ -19,6 +19,15 @@ header {
     display: block;
     height: 135px;
 }
+.icon-bar {
+    padding: 18px 8px;
+    width: 50px;
+    height: 60px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
 /*logo : 30 nov 2019*/
 #wrapper .logo {
     width: 30%;
