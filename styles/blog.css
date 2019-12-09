@@ -623,6 +623,15 @@ color: red;
     width: 80%;
     height: 500px;
     }
+
+    .flexbox1 div{
+      margin: 0 auto;
+    width: 80%;
+    }
+    .flex-grid6 img , .flex-grid7 img , .flex-grid8 img , .flex-grid9 img , .flex-grid10 img , .flex-grid11 img{
+    max-width: 100%;
+    height: auto;
+    }
  /*
     Footer :5dec2019
     */
