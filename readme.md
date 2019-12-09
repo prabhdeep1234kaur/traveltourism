@@ -3,6 +3,7 @@
 > Travel & Tourism is a cross browser compatible, mobile-ready website created using HTML5, CSS3, JavaScript, jQuery and Ajax.
 
 # URL 
+> https://prabhdeep1234kaur.github.io/traveltourism/index.html
 
 # Features :
 - Huge beautiful images and videos
@@ -48,19 +49,34 @@ Web Genies
 
 ### Features : 
 - Responsive and mobile ready
+- Parallex design
 - Lists out the main tour packages offered by the website and user can check those packages by clicking on them
 - Instagram ready : The website shows the latest feed updated by the instagram page so that users can check the latest updates from social media
 - Subscription : The website has a subscription box where visitors can subscribe to get latest updates and offers from the website
 - The page also shows the services offered by the website like hotels, transit, and events etc.
+- MailChimp integration : Users can subscribe to the list by entering their email ID
 
 ## Testimonial : testimonial.html
 ### Description : 
 > The testimonial page shows the reviews added by the customers. The page shows how others have benefited from the services offered by the website.
 
 ### Features :
+- Responsive and mobile ready
+- Parallex design
 - Lists out the feedback added by the customers
 - Helps other visitors and customers decide to use the website features by reading the comments
 - Easy to read the comments given by other users
+
+## Gallery : gallery.html
+### Description : 
+> The gallery page shows the beautiful locations and places where people can visit 
+
+
+### Features :
+- Responsive and mobile ready
+- List all the images 
+- Image gallery slider
+- Slider to navigate through various images present in the gallery section
 
 ## HEET PATEL
 ## Aboutus – AboutUs.HTML
