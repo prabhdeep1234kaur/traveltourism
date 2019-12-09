@@ -111,6 +111,13 @@ animation-duration: 1.5s;
 .flex-grid img:hover, .flex-grid1 img:hover,.flex-grid2 img:hover, .flex-grid3 img:hover, .flex-grid4 img:hover{
   transform: scale(1.3);
 }
+
+/*Blog iframe*/
+.iframe_div{
+  width: 100%;
+  margin:0 auto;
+}
+
 /* Travel blogs Title */
 h1{
     text-align: center;
@@ -192,7 +199,7 @@ h4{
   margin-top: -80px; 
 }
 iframe{
-  margin: 12%;
+  width: 100%;
 }
 .flex-grid6 , .flex-grid7 , .flex-grid8 , .flex-grid9 , .flex-grid10 , .flex-grid11{
   display: flex;
